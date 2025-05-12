@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-export default function Greeting({ name }) {
+export default function Greeting({ name }: { name: string }) {
   const [count, setCount] = useState(0);
   return (
     <div>
